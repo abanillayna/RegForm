@@ -1,0 +1,88 @@
+@media only screen and (max-width:768px){
+    [class*="col-"]{
+        width:100%;
+    }
+}
+body{
+    /*background-color: rgb(151, 171, 106);*/
+    background: url(grass.jpg);
+    background-position: center;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+fieldset{
+
+   /* background-color: rgb(189, 196, 95);*/
+    text-align: center;
+    padding: 10px 100px 10px 100px;
+    margin: 20px 500px 100px 410px;
+    background-image: url(grass.jpg) ;
+    opacity:10px;
+   /* background-position-x: center;
+    box-shadow:20px solid rgb(116, 9, 26);*/
+}
+
+legend{
+    background-color: rgb(118, 129, 63);
+}
+
+.regbut{
+    text-align: center;
+    background-color: rgb(140, 160, 85);
+
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=number] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=radio] {
+    padding: 10px 10px;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+
+select{
+    padding: 5px 5px 5px 5px;
+    margin: 20px 1px 1px 1px;
+    box-sizing: border-box;
+    
+}
+
+button{
+    padding: 12px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
